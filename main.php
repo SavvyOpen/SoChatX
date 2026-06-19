@@ -290,7 +290,7 @@ function login(derived_password) {  // log in when no existing user already logg
                 
                 _user_name.value = '';
                 _user_password.value = '';
-                _totp_code.vlaue = '';
+                _totp_code.value = '';
                 
                 modal_window_close();
                 location.reload();  // *** force page reload
